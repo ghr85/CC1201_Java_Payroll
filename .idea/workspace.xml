@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4ce582d-f02d-402b-ba89-0cc8c7dd151a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/staff/employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/management/director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/management/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/management/manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/management/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/techStaff/databaseAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/techStaff/DatabaseAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/techStaff/developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/techStaff/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testDeveloper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestDeveloper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestDirector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -32,14 +35,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="11" />
           <entry key="Markdown" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="398" />
+          <entry key="JAVA" value="916" />
           <entry key="Markdown" value="387" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -47,10 +51,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/staff/employee.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/staff/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="115">
+              <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
               <folding>
                 <element signature="e#329#330#0" expanded="true" />
                 <element signature="e#369#370#0" expanded="true" />
@@ -62,10 +66,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testManager.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <state relative-caret-position="299">
+              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#90#91#0" expanded="true" />
+                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/management/Manager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              <folding>
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -380,8 +404,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/instructions.md" />
         <option value="$PROJECT_DIR$/src/readme.md" />
-        <option value="$PROJECT_DIR$/src/main/java/staff/employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/management/manager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/management/Manager.java" />
         <option value="$PROJECT_DIR$/src/test/java/testManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/staff/employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/staff/Employee.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestManager.java" />
       </list>
     </option>
   </component>
@@ -433,6 +461,22 @@
               <item name="AccessRightsLab" type="b2602c69:ProjectViewProjectNode" />
               <item name="AccessRightsLab" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="staff" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AccessRightsLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AccessRightsLab" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="techStaff" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AccessRightsLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AccessRightsLab" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -451,7 +495,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554128463826" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554130046755" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -469,6 +513,21 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestManager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AccessRightsLab_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestManager" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestManager" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -525,7 +584,7 @@
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="3" visible="true" weight="0.32890365" />
+      <window_info anchor="bottom" id="Build" order="3" weight="0.32890365" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Run" order="6" />
@@ -548,14 +607,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/management/manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/techStaff/developer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/techStaff/Developer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
@@ -582,14 +634,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/techStaff/databaseAdmin.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/techStaff/DatabaseAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testDeveloper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestDeveloper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="26" selection-start-column="26" selection-end-column="26" />
@@ -603,24 +655,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testDirector.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestDirector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/management/director.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/management/Director.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/staff/employee.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/management/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="138">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/staff/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
           <folding>
             <element signature="e#329#330#0" expanded="true" />
             <element signature="e#369#370#0" expanded="true" />
@@ -630,10 +693,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testManager.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="299">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

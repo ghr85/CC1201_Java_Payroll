@@ -1,12 +1,12 @@
 package staff;
 
 
-public abstract class employee {
-    private double salary;
-    private String name;
-    private String ni;
+public abstract class Employee {
+    protected double salary;
+    protected String name;
+    protected String ni;
 
-    public employee(String name, String ni, double salary){
+    public Employee(String name, String ni, double salary){
         this.salary = salary;
         this.name = name;
         this.ni = ni;
