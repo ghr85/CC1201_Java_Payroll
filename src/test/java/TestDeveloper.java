@@ -31,6 +31,23 @@ public class TestDeveloper {
     }
 
     @Test
+    public void failRaiseSalary(){
+        developer.raiseSalary(-1000);
+        assertEquals(21000.0,developer.getSalary());
+    }
+
+    @Test
+    public void canChangeName(){
+        developer.changeName("Fiona Fudger");
+        assertEquals("Fiona Fudger", developer.getName());
+    }
+    @Test
+    public void canChangeNameFail(){
+        developer.changeName(null);
+        assertEquals("Rachael DonkeyWork", developer.getName());
+    }
+
+    @Test
     public void canPayBonus(){
         assertEquals(210.0,developer.payBonus());
     }

@@ -32,4 +32,10 @@ public abstract class Employee {
     return (this.salary * 0.01);
     }
 
+    public void changeName(String name){
+        if(name != null){
+        this.name = name;
+        }
+    }
+
 }

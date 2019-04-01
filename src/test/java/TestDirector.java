@@ -28,6 +28,11 @@ public class TestDirector {
         director.raiseSalary(1000);
         assertEquals(51000.0,director.getSalary());
     }
+    @Test
+    public void failRaiseSalary(){
+        director.raiseSalary(-1000);
+        assertEquals(50000.0,director.getSalary());
+    }
 
     @Test
     public void canPayBonus(){
@@ -38,5 +43,19 @@ public class TestDirector {
     public void canGetBudget(){
         assertEquals(20000.0, director.getBudget());
     }
+
+    @Test
+    public void canChangeName(){
+        director.changeName("Fiona Fudger");
+        assertEquals("Fiona Fudger", director.getName());
+    }
+    @Test
+    public void canChangeNameFail(){
+        director.changeName(null);
+        assertEquals("Regina Garfield", director.getName());
+    }
+
+
+
 }
 

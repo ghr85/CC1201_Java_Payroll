@@ -31,6 +31,23 @@ public class TestDatabaseAdmin {
     }
 
     @Test
+    public void failRaiseSalary(){
+        databaseAdmin.raiseSalary(-1000);
+        assertEquals(21000.0,databaseAdmin.getSalary());
+    }
+
+    @Test
+    public void canChangeName(){
+        databaseAdmin.changeName("Fiona Fudger");
+        assertEquals("Fiona Fudger", databaseAdmin.getName());
+    }
+    @Test
+    public void canChangeNameFail(){
+        databaseAdmin.changeName(null);
+        assertEquals("Rachael DonkeyWork", databaseAdmin.getName());
+    }
+
+    @Test
     public void canPayBonus(){
         assertEquals(210.0,databaseAdmin.payBonus());
     }
