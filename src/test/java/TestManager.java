@@ -23,9 +23,19 @@ public class TestManager {
     }
 
     @Test
-    public void raiseSalary(){
+    public void hasNi(){
+        assertEquals("JS123445",manager.getNi());
+    }
+
+    @Test
+    public void canRaiseSalary(){
         manager.raiseSalary(1000);
         assertEquals(31000.0,manager.getSalary());
+    }
+
+    @Test
+    public void canPayBonus(){
+        assertEquals(300.0,manager.payBonus());
     }
 
 
