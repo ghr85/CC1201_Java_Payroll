@@ -54,7 +54,7 @@ public class TestDirector {
         director.changeName(null);
         assertEquals("Regina Garfield", director.getName());
     }
-    
+
 
 
 
