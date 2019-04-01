@@ -22,5 +22,11 @@ public class TestManager {
         assertEquals("Mid Management",manager.getDept());
     }
 
+    @Test
+    public void raiseSalary(){
+        manager.raiseSalary(1000);
+        assertEquals(31000,manger.getSalary());
+    }
+
 
 }
