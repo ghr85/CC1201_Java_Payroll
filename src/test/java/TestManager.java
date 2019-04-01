@@ -25,7 +25,7 @@ public class TestManager {
     @Test
     public void raiseSalary(){
         manager.raiseSalary(1000);
-        assertEquals(31000,manger.getSalary());
+        assertEquals(31000.0,manager.getSalary());
     }
 
 

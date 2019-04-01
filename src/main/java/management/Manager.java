@@ -9,9 +9,6 @@ public class Manager extends Employee {
          this.deptName = deptName;
      }
 
-    public String getName() {
-         return this.name;
-    }
 
     public String getDept() {
          return this.deptName;

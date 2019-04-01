@@ -13,6 +13,17 @@ public abstract class Employee {
 
     }
 
+    public String getName(){
+    return this.name;
+    }
+
+    public String getNi(){
+        return this.ni;
+    }
+
+    public double getSalary(){
+        return this.salary;
+    }
     public void raiseSalary(double raiseValue){
         this.salary += raiseValue;
     }
