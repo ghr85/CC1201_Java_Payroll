@@ -20,4 +20,5 @@ public abstract class Employee {
     public void payBonus(){
     this.salary += (this.salary * 0.01);
     }
+
 }

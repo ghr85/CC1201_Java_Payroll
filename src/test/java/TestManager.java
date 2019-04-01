@@ -17,5 +17,10 @@ public class TestManager {
         assertEquals("Shona Whipcrack", manager.getName());
     }
 
+    @Test
+    public void hasDept(){
+        assertEquals("Mid Management",manager.getDept());
+    }
+
 
 }
