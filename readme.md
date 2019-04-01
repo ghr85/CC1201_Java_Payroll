@@ -28,3 +28,5 @@ See instructions.md
 * Developer.java -  developer model class
 * TestDeveloper.java - tests for developer model class
 * Employee.java - employee model superclass
+
+> "Take this job....and shovel it"
