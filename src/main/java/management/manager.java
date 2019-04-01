@@ -1,4 +1,7 @@
 package management;
+import staff.employee;
 
-public class manager {
+public class manager extends employee {
+     public manager();
+
 }
